@@ -1,5 +1,6 @@
 
 import {BsArrowRight } from 'react-icons/bs'
+import {Button } from '@chakra-ui/react'
 import './css/home.css'
 
 const Home = () => {
@@ -14,7 +15,9 @@ const Home = () => {
                     handling different authentication process.</p>
                 </section>
                 <section className='btn-box'>
-                <button className='home-btn'>Get Start <BsArrowRight className='icon'/></button>
+                <Button className='home-btn' rightIcon={<BsArrowRight />} colorScheme='#FF8C8C' variant='solid'>
+                    Get started
+                </Button>
                 </section>
             </section>
 
