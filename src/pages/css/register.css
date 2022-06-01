@@ -1,0 +1,41 @@
+.register_wrapper {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.inner-wrapper{
+    width: 40%;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.header{
+    font-size: 22px;
+    font-weight: 500;
+    /* font-family: sans-serif; */
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.form-field > input{
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btn{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: burlywood;
+    font-size: larger;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}

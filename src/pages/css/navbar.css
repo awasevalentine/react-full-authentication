@@ -1,0 +1,54 @@
+.navbar-wrapper{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    flex-direction: row;
+    align-items: center;
+    background-color: #eab67a;
+    position: fixed;
+
+}
+
+
+.brand_name_wrapper > .links {
+     font-size: xx-large;
+     margin-left: 100px;
+     color: #000;
+     letter-spacing: 2px;
+     font-family: 'Bebas Neue', cursive;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.navbar-content-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+}
+
+.navbar-content-wrapper > .links {
+    padding: 20px;
+    font-size: larger;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+}
+
+.btn-logout{
+    display: flex;
+    margin: 30px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+li{
+    list-style: none;
+    margin: 15px;
+    
+}
