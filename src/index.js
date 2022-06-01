@@ -5,14 +5,20 @@ import { store } from './app/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import { autoLogout, tokenXp } from './features/authSlice';
+import { ChakraProvider } from '@chakra-ui/react'
 
 const container = document.getElementById('root');
 const root = createRoot(container);
 
+store.dispatch(tokenXp())
+
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <ChakraProvider>
+        <App />
+      </ChakraProvider>
     </Provider>
   </React.StrictMode>
 );
