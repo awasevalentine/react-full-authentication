@@ -1,6 +1,6 @@
 
 import {BsArrowRight } from 'react-icons/bs'
-import {Button } from '@chakra-ui/react'
+import {Box, Button, SlideFade } from '@chakra-ui/react'
 import './css/home.css'
 
 const Home = () => {
@@ -10,6 +10,7 @@ const Home = () => {
         <>
             <section className="content-wrapper">
                 <header className="header-wrapper">Basic React Authentication App</header>
+                <Box className='section_wrapper'>
                 <section className='content'>
                 <p>Exploring ReactJs Authentication Processes and getting to know the various Hooks responsible for 
                     handling different authentication process.</p>
@@ -19,6 +20,7 @@ const Home = () => {
                     Get started
                 </Button>
                 </section>
+                </Box>
             </section>
 
         </>
