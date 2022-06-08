@@ -39,3 +39,16 @@
     cursor: pointer;
     font-family: 'Lato', sans-serif;
 }
+
+
+@media screen and (max-width: 600px) {
+    .inner-wrapper{
+        width: 90%;
+        height: 450px;
+        border: 1px solid black;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+}

@@ -30,6 +30,9 @@
 clip-path: polygon(0 0, 100% 1%, 100% 81%, 0% 100%);
 background-size: contain; */
 
+.section_wrapper{
+    animation: contents ease-in 1.5s;
+}
 .content{
     display: flex;
     justify-content: center;
@@ -58,6 +61,7 @@ background-size: contain; */
 
 .home-btn{
     display: inline-flex;
+    /* font-size:x-large; */
     width: 120px;
     height: 30px;
     border-radius: 5px;
@@ -78,4 +82,21 @@ background-size: contain; */
     padding-left: 5px;
     font-size: 15px;
 
+}
+
+
+
+
+@keyframes contents {
+    0% {
+        transform: translateY(300%);
+    }
+
+    70%{
+        transform: translateY(-50px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
 }
