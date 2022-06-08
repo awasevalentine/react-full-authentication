@@ -6,7 +6,7 @@ import { logout, reset } from '../features/authSlice';
 import '../pages/css/navbar.css'
 import AuthService from '../services/auth.service';
 import { BsPersonCircle } from 'react-icons/bs';
-import {   Menu,MenuButton,MenuList,MenuItem,MenuItemOption,MenuGroup,MenuOptionGroup,MenuDivider,Button } from '@chakra-ui/react';
+import {   Menu,MenuButton,MenuList,MenuItem,MenuItemOption,MenuGroup,MenuOptionGroup,MenuDivider,Button, Show } from '@chakra-ui/react';
 
 const Navbar = () => {
 
@@ -39,7 +39,7 @@ const Navbar = () => {
                         <Menu>
                             <MenuButton colorScheme='pink'>
                                 <span style={{display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '10px'}}>
-                                    <BsPersonCircle /> Profile
+                                <BsPersonCircle /><Show above='sm' >Profile</Show> 
                                 </span>
                             </MenuButton>
                             <MenuList>
