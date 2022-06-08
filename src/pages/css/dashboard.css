@@ -1,0 +1,111 @@
+.sidebar-header {
+    /* padding-left: 70px; */
+    margin-top: 4rem;
+    font-size: x-large;
+    color: black;
+    font-family: Merriweather;
+}
+
+.grid_wrappers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+/* Section for side badge display */
+.badge_wrapper {
+    display: none;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: blue;
+    height: 25px;
+    width: 130px;
+    transform: rotate(-60deg);
+    position: relative;
+    top: -90px;
+    left: -7.7em;
+    /* border-radius: 3px; */
+    clip-path: polygon(75% 0%, 86% 100%, 0% 100%, 28% 12%);
+}
+
+.badge_text_wrapper{
+    /* position: relative; */
+    /* left: -80px; */
+}
+
+
+
+/* Media queries */
+
+/* Mobile devices */
+@media screen and (max-width: 600px) {
+
+    /* .sidebar-header {
+        padding-left: 10px;
+    } */
+
+    /* This styling is targeting chakra-ui grid property */
+    .css-4mgm73 {
+        display: contents !important;
+        grid-template-areas:
+            "nav main"
+            "footer footer";
+        grid-template-rows: 1fr 50px;
+        grid-template-columns: 20% 1fr;
+        height: 90vh;
+        color: var(--chakra-colors-blackAlpha-700);
+        font-weight: var(--chakra-fontWeights-bold);
+    }
+    
+}
+
+
+/* Tablet devices */
+@media screen and (min-width: 600px ) and (max-width: 899px) {
+
+    /* .sidebar-header {
+        padding-left: 30px;
+    } */
+
+    .css-4mgm73 {
+        display: contents !important;
+        grid-template-areas:
+            "nav main"
+            "footer footer";
+        grid-template-rows: 1fr 50px;
+        grid-template-columns: 20% 1fr;
+        height: 90vh;
+        color: var(--chakra-colors-blackAlpha-700);
+        font-weight: var(--chakra-fontWeights-bold);
+    }
+    
+}
+
+
+/* Laptop devices */
+@media screen and (min-width: 900px) and (max-width: 1500px) {
+
+    /* .sidebar-header {
+        padding-left: 70px;
+        margin-top: 4rem;
+        font-size: x-large;
+        color: black;
+        font-family: Merriweather;
+    } */
+    
+}
+
+
+
+/* Desktop devices */
+@media screen and (min-width: 1501) and (max-width: 5000px) {
+
+    /* .sidebar-header {
+        padding-left: 10px;
+    } */
+    
+}
