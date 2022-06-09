@@ -3,8 +3,8 @@ import jwtDecode from "jwt-decode";
 
 // export const user
 
-export const UserBaseUrl = "http://localhost:3001/user/api/"
-export const AuthBaseUrl = "http://localhost:3001/auth/api/"
+export const UserBaseUrl = "https://appointment-manger-api.herokuapp.com/user/api/" //"http://localhost:3001/user/api/"
+export const AuthBaseUrl = 'https://appointment-manger-api.herokuapp.com/auth/api/' // "http://localhost:3001/auth/api/"
 // http://localhost:3000/register
 
 const Register = async(data) => {

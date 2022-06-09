@@ -18,7 +18,7 @@ const Home = () => {
     return (
         <>
             <section className="content-wrapper">
-                <header className="header-wrapper">Basic React Authentication App</header>
+                <header className="header-wrapper">React Authentication App</header>
                 <Box className='section_wrapper'>
                 <section className='content'>
                 <p>Exploring ReactJs Authentication Processes and getting to know the various Hooks responsible for 
