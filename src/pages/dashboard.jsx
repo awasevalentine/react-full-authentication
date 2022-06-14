@@ -125,7 +125,7 @@ const Dashboard = () => {
             <GridItem pl='2' bg='#CA82FF' area={'footer'} h='20'>
               <Box style={{display: 'flex', justifyContent: 'center', alignItems:'center', marginTop: '2rem' }}>
               <Center mt="3">
-                <Text display="flex" justifyItems="center" alignItems="center">&copy; 2022 Barrondy World Inc.</Text>
+                <Text display="flex" justifyItems="center" alignItems="center" className="footer">&copy; 2022 Barrondy World Inc.</Text>
               </Center>
               </Box>
             </GridItem>
