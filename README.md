@@ -10,11 +10,12 @@
   <li>Redux</li>
   <li>Chakra UI</li>
   <br>
-  <h4>Backend</h4>
+  <h4 style="margin-left: '-20px';">Backend</h4>
   <li>Nestjs</li>
   <li>PassportJs</li>
-  <li>MongoDb</li>
   <li>JsonWebToken</li>
+  <li>MongoDb</li>
+
 </ul>
 
 ## Available Scripts
