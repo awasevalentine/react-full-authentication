@@ -1,6 +1,9 @@
-# Getting Started with Create React App and Redux
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<h2>Full Authentication App using React</h2>
+<p> This is an authentication app built with React on the front-end, and on the backend is nestJs. This app allows new users to sign up, sign in and on allow only authenticated users to access certain routes. Routes such as the dasboard route.
+  <br>
+  <p> You can view the live app using the following Link:  <a href="https://full-react-auth.netlify.app"> Visit Website </a> </p>
+<p>
+<p><em>Technologies used</em></p>
 
 ## Available Scripts
 
